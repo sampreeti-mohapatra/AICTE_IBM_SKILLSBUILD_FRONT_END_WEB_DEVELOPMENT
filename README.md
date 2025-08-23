@@ -27,6 +27,15 @@ This repository contains projects, assignments, and resources completed during t
 ## 📖 Learnings
 • Gained hands-on experience in HTML, CSS, and JavaScript
 • Built responsive layouts and interactive pages
+
+📜 License
+This project is licensed under the MIT License.  
+
+> Created by **Sampreeti Mohapatra** during the **IBM SkillsBuild for Academia Internship 2025**  
+> Provided by **Edunet Foundation** and **AICTE (All India Council for Technical Education)**  
+> Department of Computer Science and Engineering,  
+> Institute of Technical Education and Research (ITER), SOA University
+
 • Improved collaboration skills through GitHub workflow
 
 ## 🙌 Acknowledgements
