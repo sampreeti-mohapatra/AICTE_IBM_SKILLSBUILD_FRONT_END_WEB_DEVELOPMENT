@@ -1,42 +1,53 @@
-# 🌐 AICTE–IBM SkillsBuild | Frontend Web Development
-This repository contains projects, assignments, and resources completed during the **AICTE–IBM SkillsBuild Frontend Web Development Internship**.  
+# 📘 Student Tablet AI Chatbot
 
-## 📌 Overview
-- Duration: 6 weeks  
-- Focus: Frontend Web Development fundamentals & practical projects  
-- Tech Stack: **HTML, CSS, JavaScript** (and more as applied)  
+This is a simple **React + TypeScript** project simulating a student learning tablet with:
+- 📖 **Content Viewer**: Switch between Math, Science, and English topics
+- 🤖 **AI Chatbot**: A simulated chatbot (can be extended with IBM Watson / OpenAI API)
 
-## 📂 Contents
-- Week 1 → Introduction to HTML & CSS  
-- Week 2 → Advanced CSS & Flexbox/Grid  
-- Week 3 → JavaScript Basics  
-- Week 4 → DOM Manipulation & Events  
-- Week 5 → Mini Projects  
-- Week 6 → Final Project  
+---
 
-## 🚀 How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/CodeCraftsman-6/AICTE_IBM_SKILLSBUILD_FRONT_END_WEB_DEVELOPMENT.git
-2. Open the project folder.
-3. Run index.html in your browser.
+## 🚀 Features
+- View and switch between chapters
+- Ask questions to an AI chatbot (currently simulated with dummy responses)
+- Easy to extend with real AI APIs
 
-## 📸 Screenshots / Demo
-(Add screenshots or deployed project links here once ready!)
+---
 
-## 📖 Learnings
-• Gained hands-on experience in HTML, CSS, and JavaScript
-• Built responsive layouts and interactive pages
-• Improved collaboration skills through GitHub workflow
+## 🛠️ Setup Instructions
 
-📜 License
-This project is licensed under the MIT License.  
+### 1. Clone Repository
+```bash
+git clone https://github.com/your-username/stu_tablet_ai_chatbot.git
+cd stu_tablet_ai_chatbot
 
-> Created by **Sampreeti Mohapatra** during the **IBM SkillsBuild for Academia Internship 2025**  
-> Provided by **Edunet Foundation** and **AICTE (All India Council for Technical Education)**  
-> Department of Computer Science and Engineering,  
-> Institute of Technical Education and Research (ITER), SOA University
+### 2. Install Dependencies
+npm install
 
-## 🙌 Acknowledgements
-• AICTE & IBM SkillsBuild for providing this internship program
-• Mentors & peers for their support
+### 3. Run Locally
+npm start
+
+This will start the app at http://localhost:3000
+
+### 4. Build for Production
+npm run build
+
+---
+
+## 📂 Project Structure
+
+stu_tablet_ai_chatbot/
+├── public/          # Static assets
+│   └── index.html
+├── src/
+│   ├── index.tsx    # Entry point
+│   ├── pages/
+│   │   └── Home.tsx
+│   └── components/  # Reusable UI components
+│       ├── ContentViewer.tsx
+│       └── Chatbot.tsx
+├── package.json
+├── tsconfig.json
+└── README.md
+
+
+👨‍💻 Made with ❤️ using React & TypeScript
