@@ -25,9 +25,8 @@ A simple **React + TypeScript** project simulating a student learning tablet wit
 
 Here’s an example output of the app running locally:
 
-👉**<img width="1536" height="1024" alt="student" src="https://github.com/user-attachments/assets/6bbf7f55-9741-4e93-bbb9-4317d8e996bb" />
-**
-     
+<img width="1536" height="1024" alt="student" src="https://github.com/user-attachments/assets/6bbf7f55-9741-4e93-bbb9-4317d8e996bb" />
+
 ---
 
 ## 🛠️ Setup Instructions
